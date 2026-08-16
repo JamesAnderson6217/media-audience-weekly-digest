@@ -1,0 +1,2 @@
+digest:
+  task-url: ${DIGEST_TASK_URL:http://localhost:8080/digest/weekly}

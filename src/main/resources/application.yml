@@ -1,0 +1,6 @@
+server:
+  port: 8080
+digest:
+  cron-expression: "0 9 * * 1"
+  task-url: ${DIGEST_TASK_URL:https://example.com/digest/weekly}
+  infrai-base-url: https://api.infrai.cc

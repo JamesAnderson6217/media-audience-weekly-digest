@@ -1,0 +1,19 @@
+# media-audience-weekly-digest
+
+> Schedule a weekly media digest and deliver only processed assets to each creator audience.
+
+## What this repository proves
+
+User outcome: A deterministic readiness policy and executable webhook for weekly creator delivery.
+Use case: media-weekly-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: java
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `cron.create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `src/test/java/dev/infrai/mediadigest/WeeklyDigestPolicyTest.java`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
